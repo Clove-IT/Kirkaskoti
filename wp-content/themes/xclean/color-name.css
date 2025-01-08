@@ -1,0 +1,27 @@
+$allowed = array(
+	'global-color',
+	'secondary-color',
+	'gradient-color',
+	'white-color',
+	'blackish-color',
+	'light-bg-color',
+	'blackish-bg-color',
+	'header-height',
+	'sticky-header-height',
+	'responsive-breakpoint',
+	'main-menu-typography',
+	'main-menu-sticky-color',
+);
+color: var(--pbmit-xclean-global-color);   
+color: var(--pbmit-xclean-secondary-color);   
+color: var(--pbmit-xclean-gradient-color);  
+color: var(--pbmit-xclean-white-color);  
+color: var(--pbmit-xclean-blackish-color);  
+color: var(--pbmit-xclean-light-bg-color);  
+color: rgba( var(--pbmit-xclean-global-color-rgb) , 0.20 );
+color: rgba( var(--pbmit-xclean-secondary-color-rgb) , 0.20 );
+color: rgba( var(--pbmit-xclean-white-color-rgb) , 0.20 );
+color: rgba( var(--pbmit-xclean-blackish-color-rgb) , 0.20 );
+color: rgba( var(--pbmit-xclean-light-color-rgb) , 0.20 );
+color: var(--pbmit-xclean-gradient-color-first);
+color: var(--pbmit-xclean-gradient-color-last);

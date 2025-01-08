@@ -1,0 +1,25 @@
+.xclean-template-kits-modal #elementor-template-library-templates-container {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.elementor-template-library-template-remote .elementor-template-library-template-insert .eicon-file-download {
+	margin-right: 5px;
+}
+#xclean-template-kits-template-library-modal .xclean-template-kits-template.elementor-template-library-template .elementor-template-library-template-footer {
+	transform: none;
+}
+#xclean-template-kits-template-library-modal .xclean-template-kits-template.elementor-template-library-template .elementor-template-library-template-footer .elementor-template-library-template-name {
+	display: inherit;
+}
+#xclean-template-kits-template-library-modal .xclean-template-kits-template.elementor-template-library-template:not(:hover) .elementor-template-library-favorite,
+#xclean-template-kits-template-library-modal .xclean-template-kits-template.elementor-template-library-template:not(:hover) .elementor-template-library-template-action,
+#xclean-template-kits-template-library-modal .xclean-template-kits-template.elementor-template-library-template:hover .elementor-template-library-template-name {
+	display: none;
+}
+.xclean-template-kits-modal .elementor-template-library-template.xclean-template-kits-template.cat-hidden,
+.xclean-template-kits-modal .elementor-template-library-template.xclean-template-kits-template.search-hidden {
+	display:none;
+}
+.xclean-template-kits-modal .elementor-template-library-template-remote .elementor-template-library-template-preview {
+	display: none;
+}

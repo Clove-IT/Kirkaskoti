@@ -1,0 +1,487 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PBM Theme Addons\n"
+"POT-Creation-Date: 2022-08-03 18:50+0530\n"
+"PO-Revision-Date: 2016-04-01 11:48+0530\n"
+"Last-Translator: \n"
+"Language-Team: PBM Infotech Team <contact@pbminfotech.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;"
+"_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../pbm-theme-addons.php:238 ../pbm-theme-addons.php:239 ../pbm-theme-addons.php:754
+msgid "Portfolio"
+msgstr ""
+
+#: ../pbm-theme-addons.php:242
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../pbm-theme-addons.php:243 ../pbm-theme-addons.php:755
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../pbm-theme-addons.php:246
+msgid "Services"
+msgstr ""
+
+#: ../pbm-theme-addons.php:247 ../pbm-theme-addons.php:756
+msgid "Service"
+msgstr ""
+
+#: ../pbm-theme-addons.php:250
+msgid "Service Categories"
+msgstr ""
+
+#: ../pbm-theme-addons.php:251 ../pbm-theme-addons.php:757
+msgid "Service Category"
+msgstr ""
+
+#: ../pbm-theme-addons.php:252
+msgid "service-category"
+msgstr ""
+
+#: ../pbm-theme-addons.php:254
+msgid "Team Members"
+msgstr ""
+
+#: ../pbm-theme-addons.php:255 ../pbm-theme-addons.php:718 ../pbm-theme-addons.php:758
+msgid "Team Member"
+msgstr ""
+
+#: ../pbm-theme-addons.php:258
+msgid "Team Groups"
+msgstr ""
+
+#: ../pbm-theme-addons.php:259 ../pbm-theme-addons.php:759
+msgid "Team Group"
+msgstr ""
+
+#: ../pbm-theme-addons.php:262
+msgid "Testimonials"
+msgstr ""
+
+#: ../pbm-theme-addons.php:263
+msgid "Testimonial"
+msgstr ""
+
+#: ../pbm-theme-addons.php:266
+msgid "Testimonial Categories"
+msgstr ""
+
+#: ../pbm-theme-addons.php:267
+msgid "Testimonial Category"
+msgstr ""
+
+#: ../pbm-theme-addons.php:366 ../pbm-theme-addons.php:409 ../pbm-theme-addons.php:429
+#: ../pbm-theme-addons.php:472 ../pbm-theme-addons.php:492 ../pbm-theme-addons.php:535
+#: ../pbm-theme-addons.php:555 ../pbm-theme-addons.php:602
+#, php-format
+msgid "Add New %1$s"
+msgstr ""
+
+#: ../pbm-theme-addons.php:367 ../pbm-theme-addons.php:407 ../pbm-theme-addons.php:430
+#: ../pbm-theme-addons.php:470 ../pbm-theme-addons.php:493 ../pbm-theme-addons.php:533
+#: ../pbm-theme-addons.php:556 ../pbm-theme-addons.php:600
+#, php-format
+msgid "Edit %1$s"
+msgstr ""
+
+#: ../pbm-theme-addons.php:370 ../pbm-theme-addons.php:433 ../pbm-theme-addons.php:496
+#: ../pbm-theme-addons.php:559
+msgid "Add New"
+msgstr ""
+
+#: ../pbm-theme-addons.php:371 ../pbm-theme-addons.php:434 ../pbm-theme-addons.php:497
+#: ../pbm-theme-addons.php:560
+#, php-format
+msgid "New %1$s"
+msgstr ""
+
+#: ../pbm-theme-addons.php:372 ../pbm-theme-addons.php:435 ../pbm-theme-addons.php:498
+#: ../pbm-theme-addons.php:561
+#, php-format
+msgid "View %1$s"
+msgstr ""
+
+#: ../pbm-theme-addons.php:373 ../pbm-theme-addons.php:404 ../pbm-theme-addons.php:436
+#: ../pbm-theme-addons.php:467 ../pbm-theme-addons.php:499 ../pbm-theme-addons.php:530
+#: ../pbm-theme-addons.php:562 ../pbm-theme-addons.php:597
+#, php-format
+msgid "All %1$s"
+msgstr ""
+
+#: ../pbm-theme-addons.php:374 ../pbm-theme-addons.php:403 ../pbm-theme-addons.php:437
+#: ../pbm-theme-addons.php:466 ../pbm-theme-addons.php:500 ../pbm-theme-addons.php:529
+#: ../pbm-theme-addons.php:563 ../pbm-theme-addons.php:596
+#, php-format
+msgid "Search %1$s"
+msgstr ""
+
+#: ../pbm-theme-addons.php:375 ../pbm-theme-addons.php:406 ../pbm-theme-addons.php:438
+#: ../pbm-theme-addons.php:469 ../pbm-theme-addons.php:501 ../pbm-theme-addons.php:532
+#: ../pbm-theme-addons.php:564 ../pbm-theme-addons.php:599
+#, php-format
+msgid "Parent %1$s:"
+msgstr ""
+
+#: ../pbm-theme-addons.php:376 ../pbm-theme-addons.php:439 ../pbm-theme-addons.php:502
+#: ../pbm-theme-addons.php:565
+#, php-format
+msgid "No %1$s found"
+msgstr ""
+
+#: ../pbm-theme-addons.php:377 ../pbm-theme-addons.php:440 ../pbm-theme-addons.php:503
+#: ../pbm-theme-addons.php:566
+#, php-format
+msgid "No %1$s found in Trash."
+msgstr ""
+
+#: ../pbm-theme-addons.php:405 ../pbm-theme-addons.php:468 ../pbm-theme-addons.php:531
+#: ../pbm-theme-addons.php:598
+#, php-format
+msgid "Parent %1$s"
+msgstr ""
+
+#: ../pbm-theme-addons.php:408 ../pbm-theme-addons.php:471 ../pbm-theme-addons.php:534
+#: ../pbm-theme-addons.php:601
+#, php-format
+msgid "Update %1$s"
+msgstr ""
+
+#: ../pbm-theme-addons.php:410 ../pbm-theme-addons.php:473 ../pbm-theme-addons.php:536
+#: ../pbm-theme-addons.php:603
+#, php-format
+msgid "New %1$s Name"
+msgstr ""
+
+#: ../pbm-theme-addons.php:567
+#, php-format
+msgid "%1$s writer's image/logo"
+msgstr ""
+
+#: ../pbm-theme-addons.php:568
+msgid "Set image/logo"
+msgstr ""
+
+#: ../pbm-theme-addons.php:569
+msgid "Remove image/logo"
+msgstr ""
+
+#: ../pbm-theme-addons.php:570
+#, php-format
+msgid "Use as %1$s writer's image/logo"
+msgstr ""
+
+#: ../pbm-theme-addons.php:621
+msgctxt "post type general name"
+msgid "Clients"
+msgstr ""
+
+#: ../pbm-theme-addons.php:622
+msgctxt "post type singular name"
+msgid "Client"
+msgstr ""
+
+#: ../pbm-theme-addons.php:623
+msgid "Add New Client"
+msgstr ""
+
+#: ../pbm-theme-addons.php:624
+msgid "Client Logo"
+msgstr ""
+
+#: ../pbm-theme-addons.php:625
+msgid "Set Client Logo"
+msgstr ""
+
+#: ../pbm-theme-addons.php:626
+msgid "Remove Client Logo"
+msgstr ""
+
+#: ../pbm-theme-addons.php:627
+msgid "Use as Client Logo"
+msgstr ""
+
+#: ../pbm-theme-addons.php:651
+msgctxt "Client Group general name"
+msgid "Client Groups"
+msgstr ""
+
+#: ../pbm-theme-addons.php:652
+msgctxt "Client Group singular name"
+msgid "Client Group"
+msgstr ""
+
+#: ../pbm-theme-addons.php:653
+msgid "Search Client Groups"
+msgstr ""
+
+#: ../pbm-theme-addons.php:654
+msgid "All Client Groups"
+msgstr ""
+
+#: ../pbm-theme-addons.php:655
+msgid "Parent Client Group"
+msgstr ""
+
+#: ../pbm-theme-addons.php:656
+msgid "Parent Client Group:"
+msgstr ""
+
+#: ../pbm-theme-addons.php:657
+msgid "Edit Client Group"
+msgstr ""
+
+#: ../pbm-theme-addons.php:658
+msgid "Update Client Group"
+msgstr ""
+
+#: ../pbm-theme-addons.php:659
+msgid "Add New Client Group"
+msgstr ""
+
+#: ../pbm-theme-addons.php:660
+msgid "New Client Group Name"
+msgstr ""
+
+#: ../pbm-theme-addons.php:661
+msgid "Client Group"
+msgstr ""
+
+#: ../pbm-theme-addons.php:679
+msgid "Select Client Logo"
+msgstr ""
+
+#: ../pbm-theme-addons.php:692
+msgid "Featured Image"
+msgstr ""
+
+#: ../pbm-theme-addons.php:726
+msgid "Enter writer name here"
+msgstr ""
+
+#: ../pbm-theme-addons.php:728
+#, php-format
+msgid "Enter %1$s name here"
+msgstr ""
+
+#: ../pbm-theme-addons.php:730
+msgid "Enter Client/Company name here"
+msgstr ""
+
+#: ../pbm-theme-addons.php:790
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../pbm-theme-addons.php:792
+msgid "Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr ""
+
+#: ../pbm-theme-addons.php:799
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../pbm-theme-addons.php:801
+msgid "Add widgets here to appear in your sidebar on pages."
+msgstr ""
+
+#: ../pbm-theme-addons.php:808
+msgid "Search Results Sidebar"
+msgstr ""
+
+#: ../pbm-theme-addons.php:810
+msgid "Add widgets here to appear on search result pages."
+msgstr ""
+
+#: ../pbm-theme-addons.php:820 ../pbm-theme-addons.php:830 ../pbm-theme-addons.php:840
+#: ../pbm-theme-addons.php:850 ../pbm-theme-addons.php:861 ../pbm-theme-addons.php:871
+#, php-format
+msgid "%1$s Sidebar"
+msgstr ""
+
+#: ../pbm-theme-addons.php:822 ../pbm-theme-addons.php:832 ../pbm-theme-addons.php:842
+#: ../pbm-theme-addons.php:852 ../pbm-theme-addons.php:863 ../pbm-theme-addons.php:873
+#, php-format
+msgid "Add widgets for %1$s Sidebar"
+msgstr ""
+
+#: ../pbm-theme-addons.php:860
+msgid "Team Member Sidebar"
+msgstr ""
+
+#: ../pbm-theme-addons.php:882
+msgid "WooCommerce - Shop Page"
+msgstr ""
+
+#: ../pbm-theme-addons.php:884
+msgid "Widgets for WooCommerce shop (product listing) page."
+msgstr ""
+
+#: ../pbm-theme-addons.php:891
+msgid "WooCommerce - Single Product Page"
+msgstr ""
+
+#: ../pbm-theme-addons.php:893
+msgid "Widgets for WooCommerce single product page."
+msgstr ""
+
+#: ../pbm-theme-addons.php:903
+msgid "Events - Event Section Slidebar"
+msgstr ""
+
+#: ../pbm-theme-addons.php:905
+msgid "Widgets for Event secion pages."
+msgstr ""
+
+#: ../pbm-theme-addons.php:912
+msgid "Events - Single Event Slidebar"
+msgstr ""
+
+#: ../pbm-theme-addons.php:914
+msgid "Widgets for Event single page."
+msgstr ""
+
+#: ../pbm-theme-addons.php:923
+msgid "Footer Row - 1st Column"
+msgstr ""
+
+#: ../pbm-theme-addons.php:925 ../pbm-theme-addons.php:934 ../pbm-theme-addons.php:943
+#: ../pbm-theme-addons.php:952
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: ../pbm-theme-addons.php:932
+msgid "Footer Row - 2nd Column"
+msgstr ""
+
+#: ../pbm-theme-addons.php:941
+msgid "Footer Row - 3rd Column"
+msgstr ""
+
+#: ../pbm-theme-addons.php:950
+msgid "Footer Row - 4th Column"
+msgstr ""
+
+#: ../widgets/category-list-widget.php:15
+msgid "Show Category List of current Taxonomy."
+msgstr ""
+
+#: ../widgets/category-list-widget.php:18
+msgid "PBM: Category/Group List Widget"
+msgstr ""
+
+#: ../widgets/category-list-widget.php:76 ../widgets/contact-widget.php:52
+#: ../widgets/recent-post-widget.php:72
+msgid "Title"
+msgstr ""
+
+#: ../widgets/contact-widget.php:11
+msgid "Show contact with icons"
+msgstr ""
+
+#: ../widgets/contact-widget.php:12
+msgid "PBM: Contact Widget"
+msgstr ""
+
+#: ../widgets/contact-widget.php:56
+msgid "Address"
+msgstr ""
+
+#: ../widgets/contact-widget.php:61
+msgid "Phone"
+msgstr ""
+
+#: ../widgets/contact-widget.php:66
+msgid "Email"
+msgstr ""
+
+#: ../widgets/list-all-posts-widget.php:11
+msgid "Show all posts for current CPT."
+msgstr ""
+
+#: ../widgets/list-all-posts-widget.php:12
+msgid "PBM: List All Posts"
+msgstr ""
+
+#: ../widgets/list-all-posts-widget.php:22
+msgid "Posts"
+msgstr ""
+
+#: ../widgets/list-all-posts-widget.php:200
+msgid "This will show recent post,page or other post-type as list with special design."
+msgstr ""
+
+#: ../widgets/list-all-posts-widget.php:203
+msgid "Title:"
+msgstr ""
+
+#: ../widgets/list-all-posts-widget.php:206
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../widgets/list-all-posts-widget.php:209
+msgid "Custom Class:"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:11
+msgid "Show recent post with thumbnail"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:12
+msgid "PBM: Recent Posts Widget"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:76
+msgid "How many Posts to Show"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:78
+msgid "1"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:79
+msgid "2"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:80
+msgid "3"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:81
+msgid "4"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:82
+msgid "5"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:83
+msgid "6"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:84
+msgid "7"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:85
+msgid "8"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:86
+msgid "9"
+msgstr ""
+
+#: ../widgets/recent-post-widget.php:87
+msgid "10"
+msgstr ""

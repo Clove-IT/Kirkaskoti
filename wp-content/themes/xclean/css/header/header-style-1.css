@@ -1,0 +1,27 @@
+.pbmit-header-style-1 .pbmit-search-cart-box .pbmit-cart-wrapper a .amount{
+	color: var(--pbmit-xclean-blackish-color);
+}
+@media (max-width: 1200px){
+	.pbmit-header-style-1 .pbmit-right-box{
+		display: none;
+	}
+	.pbmit-header-style-1 .pbmit-burger-menu-wrapper i{
+		color: var(--pbmit-xclean-blackish-color);
+	}
+}
+@media (min-width: 1201px){
+	.pbmit-header-style-1 .pbmit-main-header-area .container .navigation-top{
+		margin-left: auto;
+		margin-right: 25px;
+	}
+	.rtl .pbmit-header-style-1 .pbmit-main-header-area .container .navigation-top{
+		margin-left: 25px;
+		margin-right: auto;
+	}
+}
+@media (max-width: 575px){
+	.pbmit-header-style-1 .pbmit-title-bar-content,
+	.pbmit-header-style-1 .pbmit-title-bar-wrapper{
+		min-height: 250px;
+	}
+}

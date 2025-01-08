@@ -1,0 +1,61 @@
+.pbmit-testimonial-style-1 .pbminfotech-box-title{
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 0;
+}
+.pbmit-testimonial-style-1 .pbmit-featured-wrapper img{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+}
+.pbmit-testimonial-style-1 .pbminfotech-box-author{
+	display: inline-flex;
+	align-items: center;
+}
+.pbmit-testimonial-style-1 .pbmit-featured-wrapper{
+	margin-right: 20px;
+}
+.rtl .pbmit-testimonial-style-1 .pbmit-featured-wrapper{
+	margin: 0 0 0 20px;
+}
+.pbmit-testimonial-style-1 .pbminfotech-box-desc {
+	position: relative;
+}
+.pbmit-testimonial-style-1 .pbminfotech-box-desc::before {
+	font-family: "pbminfotech-base-icons";
+	content: "\e865";
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 40px;
+	line-height: 40px;
+	color: var(--pbmit-xclean-global-color);
+}
+.rtl .pbmit-testimonial-style-1 .pbminfotech-box-desc::before{
+	left: inherit;
+	right: 0;
+}
+.pbmit-testimonial-style-1 .pbminfotech-testimonial-text{
+	font-size: 24px;
+	line-height: 36px;
+	margin: 0;
+	padding: 60px 0 40px 0;
+	border: 0;
+	font-weight: 600;
+	color: var(--pbmit-xclean-blackish-color);
+}
+/* Bg Color */
+.pbmit-elementor-bg-color-secondary .pbmit-testimonial-style-1 .pbminfotech-box-title,
+.pbmit-elementor-bg-color-secondary .pbmit-testimonial-style-1 .pbminfotech-testimonial-text,
+.pbmit-elementor-bg-color-blackish .pbmit-testimonial-style-1 .pbminfotech-box-title,
+.pbmit-elementor-bg-color-blackish .pbmit-testimonial-style-1 .pbminfotech-testimonial-text {
+	color: var(--pbmit-xclean-white-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-testimonial-style-1 .pbminfotech-testimonial-detail,
+.pbmit-elementor-bg-color-blackish .pbmit-testimonial-style-1 .pbminfotech-testimonial-detail {
+	color: rgba(var(--pbmit-xclean-white-color-rgb), 0.6);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-testimonial-style-1 .pbminfotech-box-desc::before,
+.pbmit-elementor-bg-color-globalcolor .pbmit-testimonial-style-1 .pbminfotech-box-desc::before {
+	color: var(--pbmit-xclean-blackish-color);
+}

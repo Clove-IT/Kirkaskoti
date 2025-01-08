@@ -1,0 +1,247 @@
+.pbmit-ihbox-style-10 {
+	-webkit-transition: all .25s ease-out;
+	-moz-transition: all .25s ease-out;
+	-o-transition: all .25s ease-out;
+	-ms-transition: all .25s ease-out;
+	transition: all .25s ease-out;
+}
+.pbmit-ihbox-style-10 {
+	position: relative;
+}
+.pbmit-element-viewtype-carousel .pbmit-ihbox-style-10 {
+	padding-top: 5px;
+}
+.pbmit-ihbox-style-10:hover {
+	transform: translate(0, -5px);
+}
+.pbmit-ihbox-style-10 .pbmit-ihbox-headingicon {
+	padding: 65px 40px 40px 40px;
+	border: 1px solid #e5e5e5;
+	border-radius: 30px;
+}
+.pbmit-ihbox-style-10 .pbmit-ihbox-contents {
+	margin-bottom: 30px;
+}
+.pbmit-ihbox.pbmit-ihbox-style-10 .pbmit-ihbox-box-number {
+	margin-bottom: 10px;
+}
+.pbmit-ihbox-style-10 .pbmit-element-subtitle {
+	font-size: 13px;
+	line-height: 17px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.pbmit-ihbox-style-10 .pbmit-element-title {
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+.pbmit-ihbox-style-10 .pbmit-ihbox-svg,
+.pbmit-ihbox-style-10 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-10 .pbmit-ihbox-icon-type-text {
+	width: 70px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 40px;
+	line-height: 45px;
+	color: var(--pbmit-xclean-blackish-color);
+	background-color: var(--pbmit-xclean-light-bg-color);
+}
+.pbmit-ihbox-style-10 .pbmit-ihbox-svg svg {
+	fill: var(--pbmit-xclean-global-color);
+}
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn .pbmit-button-text {
+	font-size: 0;
+}
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn a .pbmit-button-icon-wrapper {
+	margin: 0 !important;
+}
+.pbmit-ihbox-style-10 .pbmit-btn-wrap {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.rtl .pbmit-ihbox-style-10 .pbmit-btn-wrap{
+	left: 0;
+	right: inherit;
+}
+.pbmit-ihbox-style-10 .pbmit-heading-desc {
+	word-break: break-all;
+}
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn {
+	border-radius: 30px 0 0 0px;
+	padding: 10px 0 0 10px;
+	background-color: var(--pbmit-xclean-white-color);
+	border-left: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+}
+.rtl .pbmit-ihbox-style-10 .pbmit-ihbox-btn{
+	border-radius: 0 30px 0 0;
+	padding: 10px 10px 0 0;
+	border-left: none;
+	border-right: 1px solid #e5e5e5;
+}
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn a{
+	min-width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 18px;
+	z-index: 2;
+	position: relative;
+	color: var(--pbmit-xclean-blackish-color) !important;
+	background-color: var(--pbmit-xclean-light-bg-color);
+}
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn a:hover {
+	color: var(--pbmit-xclean-white-color) !important;
+	background-color: var(--pbmit-xclean-blackish-color);
+}
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn::after,
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn::before {
+	content: "";
+	position: absolute;
+	top: -29px;
+	right: 0;
+	height: 30px;
+	width: 30px;
+	border-radius: 0 0 20px 0;
+	background-color: transparent;
+	border: 1px solid #e5e5e5;
+	border-top: 0;
+	border-left: 0;
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-white-color);
+}
+.rtl .pbmit-ihbox-style-10 .pbmit-ihbox-btn::after,
+.rtl .pbmit-ihbox-style-10 .pbmit-ihbox-btn::before{
+	left: 0;
+	right: inherit;
+	border-radius: 0 0 0 20px;
+	border-left: 1px solid #e5e5e5;
+	border-right: none;
+}
+.pbmit-ihbox-style-10 .pbmit-ihbox-btn::after{
+	top: inherit;
+	bottom: 0;
+	left: -29px;
+	right: 0;
+}
+.rtl .pbmit-ihbox-style-10 .pbmit-ihbox-btn::after{
+	left: 0;
+	right: -29px;
+}
+/* Bg Color */
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-ihbox-btn,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-ihbox-btn,
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-10 .pbmit-ihbox-btn a:hover,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-10 .pbmit-ihbox-btn a:hover {
+	background-color: var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-light .pbmit-ihbox-style-10 .pbmit-ihbox-btn {
+	background-color: var(--pbmit-xclean-light-bg-color);
+}
+.pbmit-elementor-bg-color-light .pbmit-ihbox-style-10 .pbmit-ihbox-btn::after,
+.pbmit-elementor-bg-color-light .pbmit-ihbox-style-10 .pbmit-ihbox-btn::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-light-bg-color);
+}
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-10 .pbmit-ihbox-btn::after,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-10 .pbmit-ihbox-btn::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-blackish-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-10 .pbmit-ihbox-btn::after,
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-10 .pbmit-ihbox-btn::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-secondary-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-ihbox-btn::after,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-ihbox-btn::before,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-ihbox-btn::after,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-ihbox-btn::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-light .pbmit-ihbox-style-10 .pbmit-ihbox-svg,
+.pbmit-elementor-bg-color-light .pbmit-ihbox-style-10 .pbmit-icon-type-icon,
+.pbmit-elementor-bg-color-light .pbmit-ihbox-style-10 .pbmit-ihbox-icon-type-text,
+.pbmit-elementor-bg-color-light .pbmit-ihbox-style-10 .pbmit-ihbox-btn a {
+	background-color: var(--pbmit-xclean-white-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-10 .pbmit-ihbox-btn {
+	background-color: var(--pbmit-xclean-secondary-color);
+}
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-10 .pbmit-ihbox-btn,
+.pbmit-elementor-bg-color-light .pbmit-ihbox-style-10 .pbmit-ihbox-btn a:hover {
+	background-color: var(--pbmit-xclean-blackish-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-10 .pbmit-ihbox-btn,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-10 .pbmit-ihbox-btn,
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-10 .pbmit-ihbox-btn::after,
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-10 .pbmit-ihbox-btn::before,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-10 .pbmit-ihbox-btn::after,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-10 .pbmit-ihbox-btn::before,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-10 .pbmit-wrap-number,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-10 .pbmit-ihbox-headingicon {
+	border-color: #33465f;
+}
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-10 .pbmit-content-number::after,
+.pbmit-elementor-bg-color-blackish .pbmit-ihbox-style-10 .pbmit-content-number::before {
+	box-shadow: 0 16px 0 0 var(--pbmit-xclean-blackish-color);
+	border-color: #33465f;
+}
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-10 .pbmit-wrap-number,
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-10 .pbmit-ihbox-headingicon {
+	border-color: #33465f;
+}
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-10 .pbmit-wrap-number {
+	background-color: var(--pbmit-xclean-secondary-color);
+}
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-10 .pbmit-content-number::after,
+.pbmit-elementor-bg-color-secondary .pbmit-ihbox-style-10 .pbmit-content-number::before {
+	box-shadow: 0 16px 0 0 var(--pbmit-xclean-secondary-color);
+	border-color: #33465f;
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-ihbox-btn,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-ihbox-btn,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-ihbox-btn::after,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-ihbox-btn::before,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-ihbox-btn::after,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-ihbox-btn::before,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-wrap-number,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-ihbox-headingicon,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-wrap-number,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-ihbox-headingicon {
+	border-color: #fcbf59;
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-wrap-number,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-wrap-number {
+	background-color: var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-content-number::after,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-content-number::before,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-content-number::after,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-content-number::before {
+	box-shadow: 0 16px 0 0 var(--pbmit-xclean-global-color);
+	border-color: #fcbf59;
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-icon-type-icon,
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-ihbox-icon-type-text,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-icon-type-icon,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-ihbox-icon-type-text {
+	color: var(--pbmit-xclean-blackish-color);
+}
+.pbmit-elementor-bg-color-gradient .pbmit-ihbox-style-10 .pbmit-ihbox-svg svg,
+.pbmit-elementor-bg-color-globalcolor .pbmit-ihbox-style-10 .pbmit-ihbox-svg svg {
+	fill: var(--pbmit-xclean-global-color);
+}
+/* Responsive */
+@media (min-width: 991px) and (max-width: 1200px) {
+	.pbmit-ihbox-style-10 .pbmit-ihbox-headingicon {
+		padding: 30px;
+	}
+}

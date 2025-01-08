@@ -1,0 +1,263 @@
+.pbmit-header-style-5 .pbmit-header-overlay{
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+}
+.pbmit-header-style-5 .pbmit-title-bar-wrapper .pbmit-title-bar-content{
+	padding: 100px 0px 0 !important;
+}
+.pbmit-header-style-5 .pbmit-header-button-text-1{
+	display: none;
+}
+@media (min-width: 1201px){
+	.pbmit-header-style-5 .pbmit-sticky-header .container,
+	.pbmit-header-style-5 .pbmit-pre-header-wrapper .container,
+	.pbmit-header-style-5 .pbmit-header-wrapper .container{
+		max-width: none;
+		width: auto;
+		padding: 0 20px 0 50px;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-sticky-header .container,
+	body.rtl .pbmit-header-style-5 .pbmit-pre-header-wrapper .container,
+	body.rtl .pbmit-header-style-5 .pbmit-header-wrapper .container{
+		padding: 0 50px 0 20px;
+	}
+	.pbmit-header-style-5 .pbmit-slider-area{
+		margin: 20px 20px 0;
+		max-width: 100%;
+		overflow: hidden;
+		border-radius: 30px;
+	}
+	.pbmit-header-style-5 .pbmit-menuarea{
+		flex: 1;
+		padding-left: 32px;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-menuarea {
+		padding-right: 32px;
+		padding-left: inherit;
+	}
+	.pbmit-header-style-5 .pbmit-right-box-button {
+		border-radius: 0 0 0 30px;
+		position: relative;
+		padding: 0 0 0 30px;
+		margin-left: 40px;
+		background-color: var(--pbmit-xclean-white-color);
+		height: var(--pbmit-xclean-header-height) !important;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-right-box-button {
+		margin-right: 40px;
+		margin-left: inherit;
+		border-radius: 0 0 30px 0;
+		padding: 0 30px 0 0;
+	}
+	.pbmit-header-style-5 .pbmit-sticky-header .pbmit-right-box-button {
+		margin-left: 0;
+		background-color: transparent;
+	}
+	.pbmit-header-style-5 .pbmit-header-button a{
+		position: relative;
+		display: flex;
+		align-items: center;
+		color: var(--pbmit-xclean-blackish-color);
+	}
+	.pbmit-header-style-5 .pbmit-search-cart-box .pbmit-header-search-btn a{
+		color: var(--pbmit-xclean-blackish-color);
+	}
+	.pbmit-header-style-5 .pbmit-header-button2 a:hover{
+		background-color: var(--pbmit-xclean-blackish-color);
+	}
+	.pbmit-header-style-5 .pbmit-title-bar-wrapper{
+		margin: 20px 20px 0 20px;
+		max-width: 100%;
+		overflow: hidden;
+		border-radius: 30px;
+	}
+	.pbmit-header-style-5 .pbmit-sticky-header .pbmit-sticky-corner{
+		display: none;
+	}
+	.pbmit-header-style-5 .pbmit-sticky-header .container{
+		padding: 0 30px;
+	}
+	.error404 .pbmit-parent-header-style-5 .pbmit-header-style-5 .pbmit-button-box-second{
+		background-color: transparent;
+	}
+	.error404 .pbmit-parent-header-style-5 .pbmit-header-style-5 .pbmit-button-box-second .pbmit-sticky-corner{
+		display: none;
+	}
+	.pbmit-header-style-5 .pbmit-header-button2 {
+		padding-left: 0;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-header-button2 {
+		padding-right: 0;
+		padding-left: inherit;
+	}
+	.pbmit-header-style-5 .pbmit-button-box .pbmit-header-button a {
+		color: var(--pbmit-xclean-blackish-color);
+	}
+	.error404 .pbmit-header-style-5 .pbmit-sticky-header .container,
+	.error404 .pbmit-header-style-5 .pbmit-pre-header-wrapper .container,
+	.error404 .pbmit-header-style-5 .pbmit-header-wrapper .container {
+		padding: 0 0 0 30px;
+	}
+	.error404 .pbmit-header-style-5 .pbmit-right-box-button {
+		padding: 0 20px;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-right-box-button .pbmit-top-left-corner {
+		right: -30px;
+		left: inherit;
+		transform: rotate(180deg);
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-right-box-button .pbmit-bottom-right-corner  {
+		left: 0;
+		right: inherit;
+		transform: rotate(180deg);
+	}
+}
+@media(min-width: 1700px){
+	.pbmit-max-mega-menu-override #page .pbmit-header-style-5 #site-navigation .mega-menu-wrap>ul>li.mega-menu-item.mega-menu-megamenu>ul.mega-sub-menu{
+		margin-left: 12%;
+	}
+}
+@media(max-width: 1600px) {
+	.pbmit-header-style-5 .pbmit-right-box-button {
+		padding: 0 0 0 20px;
+		margin-left: 30px;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-right-box-button {
+		margin-right: 30px;
+		padding: 0 20px 0 0;
+	}
+	.pbmit-header-style-5 .pbmit-menuarea {
+		padding-left: 20px;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-menuarea {
+		padding-right: 20px;
+		padding-left: inherit;
+	}
+	.pbmit-header-style-5 #mega-menu-wrap-pbminfotech-top #mega-menu-pbminfotech-top > li.mega-menu-item,
+	body:not(.mega-menu-pbminfotech-top) .pbmit-header-style-5 .pbmit-navbar div>ul>li {
+		padding: 0 24px;
+	}
+	.pbmit-header-style-5 .pbmit-header-button {
+		padding-right: 20px;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-header-button {
+		padding-left: 20px;
+		padding-right: inherit;
+	}
+	.site-header.pbmit-header-style-5 .pbmit-right-box .pbmit-header-button2 a {
+		padding: 18px 26px;
+	}
+}
+@media(max-width: 1500px) {
+	.pbmit-header-style-5 .pbmit-sticky-header .container, 
+	.pbmit-header-style-5 .pbmit-pre-header-wrapper .container,
+	.pbmit-header-style-5 .pbmit-header-wrapper .container {
+		padding: 0 20px 0 40px;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-sticky-header .container,
+	body.rtl .pbmit-header-style-5 .pbmit-pre-header-wrapper .container,
+	body.rtl .pbmit-header-style-5 .pbmit-header-wrapper .container{
+		padding: 0 40px 0 20px;
+	}
+	.pbmit-header-style-5 #mega-menu-wrap-pbminfotech-top #mega-menu-pbminfotech-top > li.mega-menu-item,
+	body:not(.mega-menu-pbminfotech-top) .pbmit-header-style-5 .pbmit-navbar div>ul>li {
+        padding: 0 20px;
+    }
+	.pbmit-header-style-5 .pbmit-right-box-button {
+		margin-left: 20px;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-right-box-button {
+		margin-right: 20px;
+	}
+	.pbmit-header-style-5 .pbmit-menuarea {
+		padding-left: 10px;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-menuarea {
+		padding-right: 10px;
+		padding-left: inherit;
+	}
+}
+@media (max-width: 1400px){
+	.pbmit-header-style-5 .pbmit-slider-area {
+		margin: 10px 10px 0;
+	}
+	.pbmit-header-style-5 .pbmit-sticky-header .container, 
+	.pbmit-header-style-5 .pbmit-pre-header-wrapper .container,
+	.pbmit-header-style-5 .pbmit-header-wrapper .container {
+		padding: 0 10px 0 30px;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-sticky-header .container,
+	body.rtl .pbmit-header-style-5 .pbmit-pre-header-wrapper .container,
+	body.rtl .pbmit-header-style-5 .pbmit-header-wrapper .container{
+		padding: 0 30px 0 10px;
+	}
+	.site-header.pbmit-header-style-5 .pbmit-right-box .pbmit-header-button2 a {
+		padding: 16px 20px;
+	}
+	.pbmit-header-style-5 .pbmit-cart-wrapper.pbmit-cart-style-1.pbmit-show-cart-amount-yes a {
+		display: block;
+	}
+	.pbmit-header-style-5 .pbmit-button-box .pbmit-header-button a {
+		font-size: 16px;
+		padding-left: 50px;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-button-box .pbmit-header-button a {
+		padding-right: 50px;
+		padding-left: 0;
+	}
+	.pbmit-header-style-5 .pbmit-button-box .pbmit-header-button a::before {
+		font-size: 16px;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.error404 .pbmit-header-style-5 .pbmit-sticky-header .container,
+	.error404 .pbmit-header-style-5 .pbmit-pre-header-wrapper .container,
+	.error404 .pbmit-header-style-5 .pbmit-header-wrapper .container {
+		padding: 0 0 0 20px;
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-search-cart-box {
+		padding: 0;
+	}
+}
+@media (max-width: 1300px){
+	.pbmit-header-style-5 .pbmit-header-button {
+		display: none;
+	}
+	.pbmit-header-style-5 .pbmit-cart-wrapper.pbmit-cart-style-1.pbmit-show-cart-amount-yes a {
+		display: flex;
+	}
+}
+@media (max-width: 1200px){
+	body.rtl .pbmit-header-style-5 .pbmit-sticky-header .container,
+	body.rtl .pbmit-header-style-5 .pbmit-pre-header-wrapper .container,
+	body.rtl .pbmit-header-style-5 .pbmit-header-wrapper .container,
+	.pbmit-header-style-5 .pbmit-sticky-header .container,
+	.pbmit-header-style-5 .pbmit-pre-header-wrapper .container,
+	.pbmit-header-style-5 .pbmit-header-wrapper .container{
+		padding: 0 30px;
+	}
+	.pbmit-header-style-5 .pbmit-bg-color-transparent .pbmit-burger-menu-wrapper button i{
+		color: var(--pbmit-xclean-white-color);
+	}
+	body.rtl .pbmit-header-style-5 .pbmit-right-box-button,
+	.pbmit-header-style-5 .pbmit-right-box-button {
+		display: none !important;
+	}
+	.pbmit-header-style-5 .pbmit-slider-area {
+		margin: 0;
+	}
+	.pbmit-header-style-5 #mega-menu-wrap-pbminfotech-top #mega-menu-pbminfotech-top > li.mega-menu-item,
+	body:not(.mega-menu-pbminfotech-top) .pbmit-header-style-5 .pbmit-navbar div>ul>li {
+		padding: 0;
+	}
+	.pbmit-header-style-5 .pbmit-main-header-area {
+		border-bottom: 1px solid rgba(var(--pbmit-xclean-white-color-rgb), 0.2);
+	}
+	.error404 .pbmit-header-style-5 .pbmit-sticky-header .container,
+	.error404 .pbmit-header-style-5 .pbmit-pre-header-wrapper .container,
+	.error404 .pbmit-header-style-5 .pbmit-header-wrapper .container {
+		padding: 0 30px;
+	}
+}

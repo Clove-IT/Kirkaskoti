@@ -1,0 +1,96 @@
+.pbminfotech-ele-fid-style-2 .pbmit-fid-inner {
+	font-size: 100px;
+	line-height: 100px;
+	margin-bottom: 20px;
+}
+.pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-number-rotate {
+	color: transparent;
+	-webkit-text-stroke: 1px var(--pbmit-xclean-blackish-color)
+}
+.pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-fid-before span {
+	margin-right: -20px;
+}
+.rtl .pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-fid-before span{
+	margin: 0 0 0 -20px;
+}
+.pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-fid span {
+	margin-left: -20px;
+}
+.rtl .pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-fid span{
+	margin: 0 -20px 0 0;
+}
+.pbminfotech-ele-fid-style-2 .pbmit-heading-desc {
+	font-size: 17px;
+}
+.pbminfotech-ele-fid-style-2 .pbmit-fid-inner sub,
+.pbminfotech-ele-fid-style-2 .pbmit-fid-inner sup {
+	font-size: 80px;
+	line-height: 80px;
+	bottom: 0;
+}
+.pbminfotech-ele-fid-style-2 .pbmit-fid-before sup,
+.pbminfotech-ele-fid-style-2 .pbmit-fid sup {
+	top: -30px;
+}
+.pbminfotech-ele-fid-style-2 .pbmit-fid sub,
+.pbminfotech-ele-fid-style-2 .pbmit-fid sup {
+	margin-left: -20px;
+}
+.rtl .pbminfotech-ele-fid-style-2 .pbmit-fid sub,
+.rtl .pbminfotech-ele-fid-style-2 .pbmit-fid sup{
+	margin: 0 -20px 0 0;
+}
+.pbminfotech-ele-fid-style-2 .pbmit-fid-before sup,
+.pbminfotech-ele-fid-style-2 .pbmit-fid-before sub {
+	margin-right: -20px;
+}
+.rtl .pbminfotech-ele-fid-style-2 .pbmit-fid-before sup,
+.rtl .pbminfotech-ele-fid-style-2 .pbmit-fid-before sub{
+	margin: 0 0 0 -20px;
+}
+/* Bg Color */
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-number-rotate,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-number-rotate,
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-number-rotate,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-number-rotate {
+	-webkit-text-stroke: 1px var(--pbmit-xclean-white-color);
+}
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-fid-style-2 .pbmit-fid-inner,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-fid-style-2 .pbmit-fid-inner {
+	color: var(--pbmit-xclean-white-color);
+}
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-fid-style-2 .pbmit-heading-desc,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-fid-style-2 .pbmit-heading-desc {
+	color: rgba(var(--pbmit-xclean-white-color-rgb), 0.9);
+}
+/* Class Css */
+.pbmit-fid-space .pbminfotech-ele-fid-style-2 .pbmit-fid-inner {
+	margin-bottom: 65px;
+}
+@media (min-width: 1350px) and (max-width: 1600px) {
+	.pbmit-fid-space .pbminfotech-ele-fid-style-2 .pbmit-fid-inner {
+		font-size: 80px;
+		line-height: 80px;
+	}
+	.pbmit-fid-space .pbmit-fid-space .pbminfotech-ele-fid-style-2 .pbmit-fid-inner {
+		margin-bottom: 40px;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1350px) {
+	.pbmit-fid-space .pbminfotech-ele-fid-style-2 .pbmit-fid-inner {
+		font-size: 60px;
+		line-height: 60px;
+	}
+	.pbmit-fid-space .pbmit-fid-space .pbminfotech-ele-fid-style-2 .pbmit-fid-inner {
+		margin-bottom: 20px;
+	}
+	.pbmit-fid-space .pbminfotech-ele-fid-style-2 .pbmit-fid-inner .pbmit-fid span {
+		margin-left: -10px;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+	.pbminfotech-ele-fid-style-2 .pbmit-fid-inner {
+		font-size: 80px;
+		line-height: 80px;
+	}
+}

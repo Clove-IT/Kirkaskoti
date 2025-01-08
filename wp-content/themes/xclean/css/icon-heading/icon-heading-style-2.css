@@ -1,0 +1,82 @@
+.pbmit-ihbox-style-2 {
+	-webkit-transition: all .25s ease-out;
+	-moz-transition: all .25s ease-out;
+	-o-transition: all .25s ease-out;
+	-ms-transition: all .25s ease-out;
+	transition: all .25s ease-out;
+}
+.pbmit-ihbox-style-2:hover {
+	transform: translate(0, -5px);
+}
+.pbmit-element-viewtype-carousel .pbmit-ihbox-style-2 {
+	padding-top: 5px;
+}
+.pbmit-ihbox-style-2 .pbmit-ihbox-headingicon {
+	display: inline-flex;
+	align-items: flex-start;
+}
+.pbmit-ihbox-style-2 .pbmit-ihbox-svg,
+.pbmit-ihbox-style-2 .pbmit-ihbox-icon {
+	margin-right: 20px;
+	display: inline-block;
+}
+.rtl .pbmit-ihbox-style-2 .pbmit-ihbox-svg,
+.rtl .pbmit-ihbox-style-2 .pbmit-ihbox-icon{
+	margin: 0 0 0 20px;
+}
+.pbmit-ihbox-style-2 .pbmit-ihbox-svg,
+.pbmit-ihbox-style-2 .pbmit-icon-type-icon,
+.pbmit-ihbox-style-2 .pbmit-ihbox-icon-type-text {
+	min-width: 70px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 50px;
+	line-height: 45px;
+	color: var(--pbmit-xclean-secondary-color);
+	background-color: var(--pbmit-xclean-light-bg-color);
+}
+.pbmit-ihbox-style-2 .pbmit-ihbox-svg svg {
+	width: 50px;
+	height: 50px;
+	fill: var(--pbmit-xclean-secondary-color);
+}
+.pbmit-ihbox-style-2 .pbmit-ihbox-icon-type-text {
+	font-size: 24px;
+}
+.pbmit-ihbox-style-2 .pbmit-ihbox-icon-type-image img {
+	width: 70px;
+	height: auto;
+}
+.pbmit-ihbox-style-2 .pbmit-element-title {
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 8px;
+}
+.pbmit-ihbox-style-2 .pbmit-element-subtitle {
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 5px;
+}
+.pbmit-ihbox-style-2 .pbmit-heading-desc {
+	margin-bottom: 0;
+}
+/* Bg Color */
+.pbmit-elementor-bg-color-light .pbmit-ihbox-style-2 .pbmit-ihbox-svg,
+.pbmit-elementor-bg-color-light .pbmit-ihbox-style-2 .pbmit-icon-type-icon,
+.pbmit-elementor-bg-color-light .pbmit-ihbox-style-2 .pbmit-ihbox-icon-type-text {
+	background-color: var(--pbmit-xclean-white-color);
+}
+@media (max-width: 1200px) {
+	.pbmit-ihbox-style-2 .pbmit-ihbox-headingicon {
+		display: block;
+	}
+	.pbmit-ihbox-style-2 .pbmit-ihbox-svg,
+	.pbmit-ihbox-style-2 .pbmit-ihbox-icon {
+		margin: 0 0 20px !important;
+	}
+}

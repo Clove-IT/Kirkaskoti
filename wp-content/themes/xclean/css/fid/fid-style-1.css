@@ -1,0 +1,52 @@
+.pbminfotech-ele-fid-style-1 .pbmit-circle{
+	position: relative;
+	display: inline-block;
+}
+.pbminfotech-ele-fid-style-1 .pbmit-circle canvas{
+	transform: rotate(0deg) translate(0px, 4px);
+}
+.pbminfotech-ele-fid-style-1 .pbmit-fid-inner{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	height: 90px;
+	width: 90px;
+	top: 50%;
+	left: 50%;
+	font-size: 24px;
+	line-height: 28px;
+	color: var(--pbmit-xclean-blackish-color);
+	background-color: var(--pbmit-xclean-light-bg-color);
+	transform: translate(-50%, -50%);
+}
+.pbminfotech-ele-fid-style-1 .pbmit-fid-title{
+	font-size: 20px;
+	line-height: 24px;
+	margin: 0;
+}
+.pbminfotech-ele-fid-style-1 .pbmit-fid-sub{
+	margin-left: 20px;
+}
+.rtl .pbminfotech-ele-fid-style-1 .pbmit-fid-sub{
+	margin: 0 20px 0 0;
+}
+.pbminfotech-ele-fid-style-1 .pbmit-fid-inner sub,
+.pbminfotech-ele-fid-style-1 .pbmit-fid-inner sup{
+	top: -7px;
+	font-size: 15px;
+	line-height: 15px;
+}
+.pbminfotech-ele-fid-style-1 .pbmit-fid-inner sub{
+	top: inherit;
+	bottom: -2px;
+}
+/* Bg Color Set */
+.pbmit-elementor-bg-color-light .pbminfotech-ele-fid-style-1 .pbmit-fid-inner {
+	background-color: var(--pbmit-xclean-white-color);
+}
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-fid-style-1 .pbmit-fid-title,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-fid-style-1 .pbmit-fid-title {
+	color: var(--pbmit-xclean-white-color);
+}

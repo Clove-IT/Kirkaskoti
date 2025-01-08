@@ -1,0 +1,436 @@
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-box {
+	padding: 60px 40px 45px 40px;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-pricing-table-box {
+	border: 1px solid rgba(var(--pbmit-xclean-blackish-color-rgb), 0.15);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-col {
+	width: 100%;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+	margin: 0 0 30px 0;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-inner {
+	display: flex;
+	align-items: center;
+	padding-bottom: 40px;
+}
+/* featured text */
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-feature-wrap {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.rtl .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-feature-wrap{
+	left: 0;
+	right: inherit;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptablebox-highlight-text{
+	width: max-content;
+	padding: 10px 30px;
+	border-radius: 0 0 0 20px;
+	font-size: 15px;
+	line-height: 15px;
+	color: var(--pbmit-xclean-white-color);
+	background: var(--pbmit-xclean-blackish-color);
+}
+.rtl .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptablebox-highlight-text{
+	border-radius: 0 0 20px 0;
+}
+/* price heading */
+.pbminfotech-ele-ptable-style-3 .pbmit-head-wrap {
+	padding-right: 45px;
+	margin-right: 35px;
+	position: relative;
+	border-right: 1px solid rgba(var(--pbmit-xclean-blackish-color-rgb), 0.15);
+}
+.rtl .pbminfotech-ele-ptable-style-3 .pbmit-head-wrap{
+	padding: 0 0 0 45px;
+	margin: 0 0 0 35px;
+	border-right: none;
+	border-left: 1px solid rgba(var(--pbmit-xclean-blackish-color-rgb), 0.15);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-head-wrap::before {
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 0;
+	right: -1px;
+	top: 0;
+	background-color: var(--pbmit-xclean-global-color);
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+.rtl .pbminfotech-ele-ptable-style-3 .pbmit-head-wrap::before{
+	left: -1px;
+	right: inherit;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:hover .pbmit-head-wrap::before {
+	height: 100%;
+}
+.pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-heading {
+	font-size: 18px;
+	line-height: 26px;
+	margin-bottom: 10px;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-price-w {
+	display: flex;
+	align-items: flex-start;
+	color: var(--pbmit-xclean-blackish-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-price-wrapper {
+	display: inline-flex;
+	align-items: flex-end;
+}
+.pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-symbol {
+	font-size: 36px;
+	line-height: 46px;
+}
+.pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-price {
+	font-size: 72px;
+	line-height: 72px;
+}
+.pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-frequency {
+	font-size: 14px;
+	line-height: 24px;
+	position: relative;
+	font-weight: 600;
+	display: flex;
+}
+.pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-frequency::before {
+	content: '/';
+	padding-right: 5px;
+	display: inline-block;
+}
+.rtl .pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-frequency::before{
+	padding: 0 0 0 5px;
+}
+/* ptable list */
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-line{
+	margin-bottom: 15px;
+	position: relative;
+	padding-left: 30px;
+	color: #565656;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-transform: capitalize;
+}
+.rtl .pbminfotech-ele-ptable-style-3 .pbmit-ptable-line{
+	padding: 0 30px 0 0;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-line:last-child{
+	margin-bottom: 0;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-line svg,
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-line i{
+	font-size: 20px;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	color: var(--pbmit-xclean-blackish-color);
+}
+.rtl .pbminfotech-ele-ptable-style-3 .pbmit-ptable-line svg,
+.rtl .pbminfotech-ele-ptable-style-3 .pbmit-ptable-line i{
+	left: inherit;
+	right: 0;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-line svg{
+	width: 20px;
+	height: 20px;
+	fill: var(--pbmit-xclean-blackish-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-lines {
+	display: flex;
+	flex-wrap: wrap;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-ptable-lines .pbmit-ptable-line {
+	width: 50%;
+}
+/* button */
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn {
+	display: inline-flex;
+	position: absolute;
+	bottom: -1px;
+	right: 40px;
+}
+.rtl .pbminfotech-ele-ptable-style-3 .pbmit-price-btn{
+	left: 40px;
+	right: inherit;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a::after,
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a::before {
+	content: "";
+	position: absolute;
+	background-color: transparent;
+	bottom: 0;
+	height: 40px;
+	width: 20px;
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-light-bg-color);
+	transition: all .4s ease-in;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a::before {
+	right: 100%;
+	border-bottom-right-radius: 15px;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a::after{
+	left: 100%;
+	border-bottom-left-radius: 15px;
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a {
+	padding: 19px 40px 17px 40px;
+	border-radius: 30px 30px 0 0;
+	color: var(--pbmit-xclean-blackish-color);
+	background-color: var(--pbmit-xclean-light-bg-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover {
+	color: var(--pbmit-xclean-white-color);
+	background-color: var(--pbmit-xclean-blackish-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover::after,
+.pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-blackish-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a {
+	background-color: var(--pbmit-xclean-white-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover {
+	background-color: var(--pbmit-xclean-blackish-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::before,
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::after {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-white-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::before,
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::after {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-blackish-color);
+}
+/* pbmit-pricing-table-featured-col */
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-pricing-table-box {
+	background-color: var(--pbmit-xclean-global-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-head-wrap {
+	border-color: rgba(var(--pbmit-xclean-white-color-rgb), 0.5);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-head-wrap::before {
+	background-color: var(--pbmit-xclean-secondary-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-line,
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-price-w {
+	color: var(--pbmit-xclean-white-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbminfotech-ptable-frequency {
+	color: var(--pbmit-xclean-white-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-line i {
+	color: var(--pbmit-xclean-secondary-color);
+}
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-line svg>*,
+.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-line svg {
+	fill: var(--pbmit-xclean-secondary-color);
+	stroke: var(--pbmit-xclean-secondary-color);
+}
+/* bg color */
+.pbmit-elementor-bg-color-light .pbminfotech-ele-ptable-style-3 .pbmit-price-btn a {
+	background-color: var(--pbmit-xclean-white-color);
+}
+.pbmit-elementor-bg-color-light .pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover {
+	background-color: var(--pbmit-xclean-secondary-color);
+}
+.pbmit-elementor-bg-color-light .pbminfotech-ele-ptable-style-3 .pbmit-price-btn a::after,
+.pbmit-elementor-bg-color-light .pbminfotech-ele-ptable-style-3 .pbmit-price-btn a::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-white-color);
+}
+.pbmit-elementor-bg-color-light .pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover::after,
+.pbmit-elementor-bg-color-light .pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover::before {
+	color: var(--pbmit-xclean-white-color);
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-secondary-color);
+}
+.pbmit-elementor-bg-color-light .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a {
+	background-color: var(--pbmit-xclean-light-bg-color);
+}
+.pbmit-elementor-bg-color-light .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover {
+	background-color: var(--pbmit-xclean-secondary-color);
+}
+.pbmit-elementor-bg-color-light .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::after,
+.pbmit-elementor-bg-color-light .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-light-bg-color);
+}
+.pbmit-elementor-bg-color-light .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::after,
+.pbmit-elementor-bg-color-light .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-secondary-color);
+}
+/* blackish bg color */
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-pricing-table-box,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-pricing-table-box,
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-pricing-table-box,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-pricing-table-box {
+	border-color: rgba(var(--pbmit-xclean-white-color-rgb), 0.15);
+}
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-line,
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-price-w,
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbminfotech-ptable-heading,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-line,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-price-w,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbminfotech-ptable-heading,
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-line,
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-price-w,
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbminfotech-ptable-heading,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-line,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-price-w,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbminfotech-ptable-heading {
+	color: var(--pbmit-xclean-white-color);
+}
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbminfotech-ptable-frequency,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbminfotech-ptable-frequency {
+	color: rgba(var(--pbmit-xclean-white-color-rgb), 0.5);
+}
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-line i,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-line i {
+	color: var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-line svg,
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-line svg>*,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-line svg,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-ptable-line svg>* {
+	fill: var(--pbmit-xclean-global-color);
+	stroke: var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-head-wrap,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:not(.pbmit-pricing-table-featured-col) .pbmit-head-wrap {
+	border-right-color: rgba(var(--pbmit-xclean-white-color-rgb), 0.15);
+}
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover {
+	background-color: var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover::after,
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover::before,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover::after,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-price-btn a:hover::before {
+	color: var(--pbmit-xclean-white-color);
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a {
+	color: var(--pbmit-xclean-white-color);
+	background-color: var(--pbmit-xclean-blackish-color);
+}
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover {
+	color: var(--pbmit-xclean-blackish-color);
+	background-color: var(--pbmit-xclean-white-color);
+}
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::after,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-blackish-color);
+}
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::after,
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::before,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::after,
+.pbmit-elementor-bg-color-blackish .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-white-color);
+}
+/* secondary bg color */
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a {
+	color: var(--pbmit-xclean-white-color);
+	background-color: var(--pbmit-xclean-secondary-color);
+}
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover {
+	color: var(--pbmit-xclean-secondary-color);
+	background-color: var(--pbmit-xclean-white-color);
+}
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::after,
+.pbmit-elementor-bg-color-secondary .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-secondary-color);
+}
+/* global & gradient bg color */
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-pricing-table-box,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-pricing-table-box {
+	background-color: var(--pbmit-xclean-blackish-color);
+}
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptablebox-highlight-text,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptablebox-highlight-text {
+	background-color: var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-head-wrap::before,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-head-wrap::before {
+	background-color: var(--pbmit-xclean-blackish-color);
+}
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-head-wrap::before,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-head-wrap::before {
+	background-color: var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-line i,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-line i {
+	color: var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-line svg,
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-line svg>*,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-line svg,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-ptable-line svg>* {
+	fill: var(--pbmit-xclean-global-color);
+	stroke: var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a {
+	color: var(--pbmit-xclean-white-color);
+	background-color: var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover {
+	color: var(--pbmit-xclean-secondary-color);
+	background-color: var(--pbmit-xclean-white-color);
+}
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::after,
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::before,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::after,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-global-color);
+}
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::after,
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::before,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::after,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-featured-col .pbmit-price-btn a:hover::before {
+	box-shadow: 0 15px 0 0 var(--pbmit-xclean-white-color);
+}
+.pbmit-elementor-bg-color-gradient .pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-frequency,
+.pbmit-elementor-bg-color-globalcolor .pbminfotech-ele-ptable-style-3 .pbminfotech-ptable-frequency {
+	color: var(--pbmit-xclean-white-color);
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+	.pbminfotech-ele-ptable-style-3 .pbmit-ptable-lines {
+		display: block;
+	}
+	.pbminfotech-ele-ptable-style-3 .pbmit-ptable-lines .pbmit-ptable-line {
+		width: 100%;
+	}
+}
+@media (max-width: 767px) {
+	.pbminfotech-ele-ptable-style-3 .pbmit-pricing-table-inner {
+		display: block;
+	}
+	.pbminfotech-ele-ptable-style-3 .pbmit-head-wrap {
+		border: none !important;
+		margin: 0 !important;
+		padding: 0 0 30px !important;
+	}
+	.pbminfotech-ele-ptable-style-3 .pbmit-ptable-col:hover .pbmit-head-wrap::before {
+		content: none;
+	}
+	.pbminfotech-ele-ptable-style-3 .pbmit-ptable-lines {
+		display: block;
+	}
+	.pbminfotech-ele-ptable-style-3 .pbmit-ptable-lines .pbmit-ptable-line {
+		width: 100%;
+	}
+}
